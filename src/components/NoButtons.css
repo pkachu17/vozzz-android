@@ -1,0 +1,13 @@
+/* styling for the react component when no button is assigned to the  screen */
+.nobutton-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nobutton-icon {
+  font-size: 50px;
+}

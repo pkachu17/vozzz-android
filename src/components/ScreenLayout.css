@@ -1,0 +1,32 @@
+/* Styling to display the contents of the screen or the screen layout */
+.screen-layout-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.screen-layout-button-image {
+  width: 100%;
+  height:80px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80px;
+}
+
+.screen-layout-button-text {
+  color: aliceblue;
+  text-shadow: 2px 2px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.screen-content{
+  width: 100vw;
+  height: 100vh;
+}

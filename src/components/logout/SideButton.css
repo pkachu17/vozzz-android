@@ -1,0 +1,15 @@
+/* Log-out button styling */
+.sidebutton-container {
+  position: absolute;
+  right: 0;
+  top: 0.7rem;
+  padding: 0.5rem;
+  z-index: 10000;
+  background-color: #dfdfdf;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.sidebutton-icon {
+  font-size: 20px;
+}
